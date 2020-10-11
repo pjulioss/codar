@@ -3,7 +3,8 @@ p,
 h1,
 ul,
 li,
-a {
+a,
+i {
     margin: 0;
     padding: 0;
 }
@@ -15,4 +16,129 @@ a {
 body {
     font-family: 'Roboto', sans-serif;
 
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* header / menu */
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-logo a {
+    color: #D6000D;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.menu-logo span {
+    color: #000;
+    font-size: 3.125em;
+    font-weight: bold;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+
+.menu-login {
+    background: #D6000D;
+    color: #fff;
+    width: 180px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* main / intro */
+
+.intro {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-img {
+    max-width: 40%;
+}
+
+
+.intro-desc p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.intro-desc h1 {
+    color: #D6000D;
+    font-size: 3.5em;
+    margin-bottom: 40px;
+}
+
+.intro-desc a {
+    background: #D6000D;
+    color: #fff;
+    width: 300px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* servicos */
+.servicos {
+    max-width: 1000px;
+    margin: 140px auto 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicos-lista ul {
+    list-style: none;
+}
+
+.servicos-lista li {
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+.servicos-lista li i {
+    margin-right: 20px;
+    color: #D6000D;
+
+}
+
+.servicos-img {
+    max-width: 40%;
+}
+
+/* contato */
+.contato {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
 }
